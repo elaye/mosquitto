@@ -1,7 +1,12 @@
 [package]
 name = "mosquitto"
 version = "0.1.0"
-authors = ["Elie Génard <elie.genard@laposte.net>"]
+authors = ["Elie Génard <elaye.github.io@gmail.com>"]
+description = "Rust bindings to libmosquitto"
+documentation = "https://github.com/elaye/mosquitto"
+homepage = "https://github.com/elaye/mosquitto"
+repository = "https://github.com/elaye/mosquitto"
+license = "MIT"
 
 [dependencies]
 mosquitto-sys = "0.1.0"
