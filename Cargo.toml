@@ -1,0 +1,7 @@
+[package]
+name = "mosquitto"
+version = "0.1.0"
+authors = ["Elie Génard <elie.genard@laposte.net>"]
+
+[dependencies]
+mosquitto-sys = "0.1.0"
