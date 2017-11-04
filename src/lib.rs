@@ -90,6 +90,12 @@ impl Mosquitto {
     }
 }
 
+impl Drop for Mosquitto {
+    fn drop(&mut self) {
+        self.destroy()
+    }
+}
+
 #[cfg(test)]
 mod tests {
     #[test]
