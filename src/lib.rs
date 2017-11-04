@@ -92,7 +92,8 @@ impl Mosquitto {
 
 impl Drop for Mosquitto {
     fn drop(&mut self) {
-        self.destroy()
+        self.disconnect();
+        self.destroy();
     }
 }
 
